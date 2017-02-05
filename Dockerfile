@@ -1,5 +1,5 @@
 
-FROM node:latest
+FROM node:alpine
 MAINTAINER Prasenjit Purohit
 LABEL Name=proj2 Version=0.0.0 
 COPY package.json /tmp/package.json
